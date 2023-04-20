@@ -1,0 +1,242 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(32, 48, 81);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    margin-top: 7%;
+    margin-bottom: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 28px;
+    color: bisque;
+}
+
+.header h1{
+    animation: animate 2s 1;
+    font-family: "Georgia", Times, serif;
+    font-size: 80px;
+
+}
+
+@keyframes animate{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.containermain{
+    width: 3px;
+    padding-bottom: 2%;
+    margin-left:2%;
+
+}
+
+.container {
+  text-align: center;
+  color: beige;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 50px;
+  padding-top: 70px;
+}
+
+.left {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  margin-left: 10px;
+  padding: 2px;
+}
+
+.custom-paragraphs p{
+    font-size: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color:  rgb(225,225,225,0.7);
+    margin-top: 4px;
+    margin-bottom: 5%;
+    margin-left: 20%; 
+    border-radius:40px;
+    width: 90%;
+    align-items: center;
+  } 
+
+.custom-paragraphs p{
+    color: black;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 6%;
+    margin-right: 6%;
+    font-family: "Georgia", Times, serif;
+}
+
+
+.custom-paragraphs h2{
+  text-align: center;
+  padding-top: 110px;
+  padding-left: 20px;
+  font-size: 60px;
+  font-family:'Times New Roman', Times, serif;
+  color: whitesmoke;
+}
+
+.text-box{
+    color: whitesmoke;
+    position: relative;
+    bottom: 8%;
+}
+.text-box h2{
+    font-family: "Georgia", Times, serif;
+    font-size: 60px;
+    padding-left: 24%;
+    color: transparent;
+    -webkit-text-stroke:1px whitesmoke;
+    background: url(back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+.custom-paragraph {
+    font-size: 18px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color:  rgb(225,225,225,0.7);
+    margin-top: 40px;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius:40px;
+    width: 80%;
+    align-items: center;
+  }
+
+  
+.custom-paragraph p{
+    color: black;
+    font-family: "Georgia", Times, serif;
+}
+
+  * {box-sizing: border-box}
+.mySlides1, .mySlides2, .mySlides3 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  padding-left: 3%;
+  margin: auto;
+  margin-top: 2%;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 28px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+.student{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  font-size:25px;
+  color:white;
+}
+
+.container h2{
+  font-size: 80px;
+  
+}

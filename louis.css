@@ -1,0 +1,231 @@
+@font-face {
+    font-family: popins;
+    src: url(./Poppins/Poppins-Black.ttf);
+    font-family: loiusFont;
+    src: url(./louis-vuitton-font/Intrepid.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:popins ;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(./Images/lious-buliding.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%
+  }
+
+.text-box1{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-style: solid; border-radius: 1rem; border-width: 2px; border-color: #000000; 
+    background-color: rgb(225,225,225,0.7);
+    width: 80%;
+    margin-left: 10%;
+  }
+
+
+.image-box{
+   color: #fff;
+   position: relative;
+   margin-top: 30%;
+    position: absolute;
+   
+}
+.image-box h1{
+    font-size: 190px;
+    line-height: 160px;
+    margin-left: -10px;
+    color: transparent;
+    -webkit-text-stroke:1.5px #fff ;
+    background: url(./Images/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+.image-box p{
+    font-size: 50px;
+    font-weight: 600;
+    color: transparent;
+    -webkit-text-stroke:1.5px #fff ;
+}
+.image-box h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+.text-box1 h2{
+    font-family: loiusFont;
+    color: #09153b;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2%;
+}
+
+
+.text-box1 h3{
+    font-family: loiusFont;
+    font-size: larger;
+    color: transparent;
+    -webkit-text-stroke:1px #0077ff ;
+    text-align: left;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.text-box1 p{
+    font-family:loiusFont;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-left: 2%;
+    line-height: 1.8;
+}
+.bags{
+    background-color:rgb(32, 48, 81);
+}
+.bagsec1{
+    background-color: rgb(32, 48, 81);
+}
+.bags h1{
+    
+    font-size: 100px;
+    line-height: 160px;
+    margin-left: 5%;
+    color: transparent;
+    -webkit-text-stroke:1.5px #fff ;
+    background: url(./Images/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+.bagpre{
+    margin-left: 15%;
+    height: 70%;
+    width: 70%;
+}
+.bags p{
+    margin-top: 5%;
+    font-family:loiusFont;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 300;
+    margin-left: 2%;
+    line-height: 1.8;
+}
+/*taigrama heading*/
+.bagsec1 h1 ,.bagsec2 h1{
+    position: relative;
+    padding-top: 2%;
+    padding-bottom: 2% ;
+    font-family: loiusFont;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 5s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  /*taigrama and dian animation*/
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+/* Slideshow container */
+.slideshow-container ,.slideshow-container2{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text ,.text2 {
+    font-family: popins;
+    color:rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 3%;
+    padding-bottom: 1%;
+    position: absolute;
+    bottom: 6px;
+    width: 75%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext1,.numbertext2 {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  .taigarama-text p, .Dian-text p{
+    padding-top: 2%;
+    font-family:loiusFont;
+    font-size: 1.2rem;
+    color:white;
+    font-weight: 300;
+    margin-left: 2%;
+    line-height: 1.8;
+    padding-bottom: 2%;
+  }
+  .bagsec2{
+    background-color: rgb(32, 48, 81);
+  }

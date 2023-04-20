@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>main</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="ExternalStyleSheet.css">
+        <!--global styles-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/global-styles.css" type="text/css">
+
+        <script>
+            function openNav() {
+              document.getElementById("myNav").style.width = "100%";
+            }
+            
+            function closeNav() {
+              document.getElementById("myNav").style.width = "0%";
+            }
+        </script>
+    </head>
+
+    <body>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+            <div class="student"> STUDENT 2<br>Editor: Sandesi Ariyaratne<br>Student ID:20220897<br>
+            <p>Tasks Completed:<br>Main Page<br>Site Navigation Bar<br>Comments Form<br>External CSS<br>Ralph Lauren(Extra content page)</p></div>
+            </div>
+        </div>
+        
+        <div class="main">
+
+            <video autoplay loop muted playsinline class="back-video">
+                <source src="images/video3.mov" type="video/mp4">
+            </video>
+
+            <nav>
+                <img class="mainlogo" src="images/LOGO.jpg" alt="LOGO" style="width:100px;height:100px;">
+
+                <ul>
+                    <li><a href="main.html" class="active">HOME</a></li> 
+                    <li><a href="new.html">GALLERY</a></li>            
+                    <li><a href="Take Quiz.html">QUIZ</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>  
+                </ul>
+                <div class="dropdown">
+                    <button class="dropbtn">BRANDS
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="Ralph Lauren.html">Ralph Lauren</a>
+                      <a href="louis.html">Louis Vuitton</a>
+                      <a href="rolex.html">Rolex</a>
+                      <a href="Nike.html">Nike</a>
+                    </div>
+                </div>
+
+            </nav>
+            <div class="content">
+                <h1>Nova Trends</h1>
+                <p>Discover timeless and authentic designer clothing for men, women and children.</p>
+                <a href="category.html" class="btn">Shop Now</a>
+            </div>
+        </div>
+
+        <section class="featured">  
+            <h2><span class ="auto-type"></span></h2>
+
+            <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+            <script>
+                var typed = new Typed(".auto-type",{
+                    strings: ["Featured Products"],
+                    typeSpeed: 150,
+                    loop: true, 
+                })
+            </script>
+        </section>
+
+        <!-- categories--> 
+        <section class="categories">
+            <h2>MEN'S CLOTHING</h2>
+                <div class="row">
+                    <div class="col-3">
+                        <img src="images/boy82.jpg" alt="mens clothing">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/boy2.png" alt="mens clothing">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/boy172.png" alt="mens clothing">
+                    </div>
+                </div>
+            <h2>WOMEN'S CLOTHING</h2>
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/girl11.png" alt="womens clothing">
+                </div>
+                <div class="col-3">
+                    <img src="images/girl22.png" alt="womens clothing">
+                </div>
+                <div class="col-3">
+                    <img src="images/girl3.jpg" alt="womens clothing">
+                </div>
+            </div>
+            <h2>BAGS</h2>
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/bag2.png" alt="bags">
+                </div>
+                <div class="col-3">
+                    <img src="images/bags.jpg" alt="bags">
+                </div>
+                <div class="col-3">
+                    <img src="images/bag3.png" alt="bags">
+                </div>
+            </div>
+            <h2>WATCHES</h2>
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/watch9.png" alt="watches">
+                </div>
+                <div class="col-3">
+                    <img src="images/watch6.jpg" alt="watches">
+                </div>
+                <div class="col-3">
+                    <img src="images/watch7.jpg" alt="watches">
+                </div>
+            </div>
+            <h2>FOOTWEAR</h2>
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/shoe7.jpg" alt="shoes">
+                </div>
+                <div class="col-3">
+                    <img src="images/shoe9.jpg" alt="shoes">
+                </div>
+                <div class="col-3">
+                    <img src="images/shoe8.jpg" alt="shoes">
+                </div>
+            </div>
+        </section>
+
+        <h3 style="text-align: center;">Brands We Sell</h3>
+
+        <section class="brandSell">
+            <div class="row">
+                <div class="col-3">
+                    <img style="width: 60%;" src="images/RLlogo.jpg" alt="Ralph Lauren">
+                </div>
+                <div class="col-3">
+                    <img style="width: 60%;" src="images/LVlogo.webp" alt="luvion vuitton ">
+                </div>
+                <div class="col-3">
+                    <img style="width: 60%;" src="images/rolexlogo.png" alt="Rolex">
+                </div>
+                <div class="col-3">
+                    <img style="width: 60%;" src="images/nikelogo.jpg" alt="Nike">
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer" >
+            <div class="footer-main">
+                <div class="footer-row footer-left">
+                    <div class="footer-text">
+                        <h1>&copy;Nova Trends</h1>
+                        <br>
+                        <p>7637 Laurel Dr. King Of Prussia,<br> PA 19406</p>
+                        <br>
+                        <p>Nova Trends: Bridging the Gap Between Suppliers and Fashion Enthusiasts</p>
+                    </div>
+                </div>
+                <div class="footer-row footer-middle">
+                    <h2>About Us</h2>
+                    <div class="footer-right-line"></div>
+                    <p>Welcome to our store, where we curate the latest trends and styles for fashion enthusiasts. Our passion for fashion drives us to bring you the best selection of clothing, accessories, and more. Stay on top of the latest fashion trends with us.</p>
+                </div>
+                <div class="footer-row footer-middle-right">
+                    <div><a href="sitemap.html"><button class="button">Site Map</button></a></div>
+                    <div><a href="Feedback Form.html"><button class="button">Have Feedback ?</button></a></div>
+                </div>
+                <div class="footer-row footer-right">
+                    <h2>Stay Connected</h2>
+                    <div class="footer-right-line"></div>
+                    <div class="links">
+                        <div class="icons"><a href="#" class="fa fa-facebook"></a></div>
+                        <div class="icons"><a href="#" class="fa fa-twitter"></a></div>
+                        <div class="icons"><a href="#" class="fa fa-google"></a></div>
+                        <div class="icons"><a href="#" class="fa fa-linkedin"></a></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+        <div id="right-bottom"><span style="font-size:20px;cursor:pointer;position:fixed;bottom:20px;right:20px;color:#fbfae2;" onclick="openNav()">&#9776; Page Editor</span>
+        </div>
+
+        <script>
+            window.addEventListener('scroll', function() {
+            const nav = document.querySelector('nav');
+            const navHeight = nav.offsetHeight;
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            if (scrollTop > navHeight) {
+                nav.classList.add('scrolled', 'nav-background');
+            } else {
+                nav.classList.remove('scrolled', 'nav-background');
+            }
+        });
+        </script>
+
+    </body>
+</html>

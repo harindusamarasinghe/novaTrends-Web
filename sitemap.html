@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sitemap.css">
+    <link rel="stylesheet" href="./Poppins/Poppins-Black.ttf">
+    <link rel="stylesheet" href="./ExternalStyleSheet.css">
+    <link rel="stylesheet" href="./PageEditor.css">
+    <!-- global styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/global-styles.css" type="text/css">
+
+    <title>SVG MAP</title>
+
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+
+    
+</head>
+<body>
+    <div id="myNav" class="overlayer">
+        <a href="javascript:void(0)" class="closebtns" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+        <div class="student"> STUDENT 4<br>Editor: Harindu Samarasinghe<br>
+        Student ID:20221506<br><p>Tasks Completed:<br>SITE MAP<br>Gallery<br>Louis Vuitton(Extra content page)</p></div>
+        </div>
+    </div>
+
+    <nav>
+        <img class="mainlogo" src="./LOGO.jpg" alt="Ralph Lauren" style="width:100px;height:100px;">
+    
+        <ul>
+            <li><a href="main.html" class="active">HOME</a></li>
+            <li><a href="new.html">GALLERY</a></li>                         
+            <li><a href="Take Quiz.html">QUIZ</a></li>
+            <li><a href="about.html">ABOUT US</a></li>  
+        </ul>
+        <div class="dropdown">
+            <button class="dropbtn">BRANDS
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="Ralph Lauren.html">Ralph Lauren</a>
+              <a href="louis.html">Louis Vuitton</a>
+              <a href="rolex.html">Rolex</a>
+              <a href="Nike.html">Nike</a>
+            </div>
+        </div>
+    
+    </nav>
+    <h1 class="header">Sitemap</h1>
+    <svg id="Layer_1" viewBox="0 0 500 400">
+        <g > 
+            <!--top rectangles-->
+            <rect class="rec-gallery" x="105" y="40"  rx="10" ry="10" width="60" height="45"></rect>
+            <a href="new.html" target="_blank">
+                <text class="text-gallery" x="110.5" y="68" >Gallery</text>
+           </a>
+           <rect class="rec-shop" x="225" y="40"  rx="10" ry="10" width="60" height="45"></rect>
+           <a href="category.html" target="_blank">
+               <text class="text-shop" x="236.5" y="68" >Shop</text>
+          </a>
+          <rect class="rec-about" x="345" y="40"  rx="10" ry="10" width="60" height="45"></rect>
+          <a href="about.html" target="_blank">
+              <text class="text-about" x="350" y="68" style="font-size: small;" >About Us</text>
+         </a>
+
+
+         <!--home rectangle-->
+        <rect class="home" x="220.5" y="140"  rx="10" ry="10" width="75" height="50"></rect>
+        <a href="main.html" target="_blank">
+            <text class="text-home" x="234" y="170" style="font-size: large "  >Home</text>
+        </a>
+
+        <!--bottom rectangels-->
+        <rect class="rec-quiz" x="105" y="240"  rx="10" ry="10" width="60" height="45"></rect>
+        <a href="Take Quiz.html" target="_blank">
+            <text class="text-quiz" x="118" y="267" >Quiz</text>
+        </a>
+        <rect class="rec-product" x="225" y="240"  rx="10" ry="10" width="60" height="45"></rect>
+            <text class="text-product" x="231" y="266" style="font-size: small;">Products</text>
+        </a>
+        <rect class="rec-form" x="345" y="240"  rx="10" ry="10" width="60" height="45"></rect>
+        <a href="Feedback Form.html" target="_blank">
+            <text class="text-form" x="358" y="266" >Form</text>
+        </a>
+        <!--paths-->
+        <!--to shop-->
+        <path class="line" d="M255,138.5 255,86.5"></path>
+        <!--to gallery and about-us-->
+        <path class="line" d="M255,112.5 134,112.5 134,86.5 134,112.5 134,86.5 134,112.5 377,112.5 377,86.5 377,112.5"></path>
+        <!--to product-->
+        <path class="line" d="M255,191.5 255,238.5"></path>
+        <!--to quiz and form-->
+        <path class="line" d="M255,215 134,215 134,240 134,215 134,240 134,215 377,215 377,240 377,215"></path>
+
+        <!--sub product recs-->
+        <rect class="rec-louis" x="120" y="350"  rx="10" ry="10" width="50" height="30"></rect>
+        <a href="louis.html" target="_blank">
+            <text class="text-form" x="122.5" y="368.5" style="font-size: 15px;">Vuitton</text>
+        </a>
+        <rect class="rec-nike" x="190" y="350"  rx="10" ry="10" width="50" height="30"></rect>
+        <a href="Nike.html" target="_blank">
+            <text class="text-form" x="199.5" y="368.5" >Nike</text>
+        </a>
+        <rect class="rec-rolex" x="260" y="350"  rx="10" ry="10" width="50" height="30"></rect>
+        <a href="rolex.html" target="_blank">
+            <text class="text-form" x="265.5" y="368.5" >Rolex</text>
+        </a>
+        <rect class="rec-polo" x="330" y="350"  rx="10" ry="10" width="55" height="30"></rect>
+        <a href="Ralph Lauren.html" target="_blank">
+            <text class="text-form" x="333" y="368.5" >Lauren</text>
+        </a>
+        <!--paths to sub products-->
+        <path class="line" d="M255,285 255,320 145,320 145,350 145,320 215,320 215,350 215,320 285,320 285,350 285,320 356,320 356,350 356,320 255,320" style="stroke-width: 4px;"></path>"
+        </g>
+    </svg>
+    <footer class="footer" >
+        <div class="footer-main">
+            <div class="footer-row footer-left">
+                <div class="footer-text">
+                    <h1>&copy;Nova Trends</h1>
+                    <br>
+                    <p>7637 Laurel Dr. King Of Prussia,</br> PA 19406</p>
+                    <br>
+                    <p>Nova Trends: Bridging the Gap Between Suppliers and Fashion Enthusiasts</p>
+                </div>
+            </div>
+            <div class="footer-row footer-middle">
+                <h2>About Us</h2>
+                <div class="footer-right-line"></div>
+                <p>Welcome to our store, where we curate the latest trends and styles for fashion enthusiasts. Our passion for fashion drives us to bring you the best selection of clothing, accessories, and more. Stay on top of the latest fashion trends with us.</p>
+            </div>
+            <div class="footer-row footer-middle-right">
+                <div><a href="sitemap.html"><button class="button">Site Map</button></a></div>
+                <div><a href="Feedback Form.html"> <button class="button">Have Feedback ?</button></a></div>
+            </div>
+            <div class="footer-row footer-right">
+                <h2>Stay Connected</h2>
+                <div class="footer-right-line"></div>
+                <div class="links">
+                    <div class="icons"><a href="#" class="fa fa-facebook"></a></div>
+                    <div class="icons"><a href="#" class="fa fa-twitter"></a></div>
+                    <div class="icons"><a href="#" class="fa fa-google"></a></div>
+                    <div class="icons"><a href="#" class="fa fa-linkedin"></a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="right-bottom"><span style="font-size:20px;cursor:pointer;position:fixed;bottom:20px;right:20px;color:#fbfae2;" onclick="openNav()">&#9776; Page Editor</span>
+    </div>
+
+    <script>
+        window.addEventListener('scroll', function() {
+        const nav = document.querySelector('nav');
+        const navHeight = nav.offsetHeight;
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        if (scrollTop > navHeight) {
+            nav.classList.add('scrolled', 'nav-background');
+        } else {
+            nav.classList.remove('scrolled', 'nav-background');
+        }
+    });
+    
+    </script>
+</body>
+</html>

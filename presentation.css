@@ -1,0 +1,173 @@
+body{
+    background: url("images/fashions4.jpg") center no-repeat,linear-gradient(to right, #161933,#161614 , darkgrey);
+    background-size: cover;
+    background-color: grey;
+    background-blend-mode: soft-light,normal;
+}
+
+.pre-title {
+    float: left;
+    display: block;
+    width: 18%;
+    margin : 10% 10% 5%;
+    overflow: auto;
+}
+
+.vertical-line {
+    border-left: 3px solid white;
+    margin: 100px 0px 100px 10px;
+    display: block;
+    height: 400px;
+    float: left;
+    overflow: auto;
+}
+
+.member-detail {
+    float: left;
+    overflow: auto;
+    border-radius: 10px;
+    margin: 10% 5% 10%;
+    padding-bottom: 80px;
+    width: 40% ;
+    background: rgba(192,192,192,0.3);
+
+}
+
+.md-heading {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-family: Courier New;
+    font-size: 20px;
+    color: white;
+}
+
+.md-content {
+    float: left;
+    margin-left: 30px;
+    font-family: Comic Sans MS;
+    font-size: 16px;
+    color: #c5c3c6;
+}
+
+.pre-title h1 {
+    border-right: .15em solid orange;
+    font-family: 'montserratbold', sans-serif;
+    font-size: 60px;
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+.pre-title h1:nth-child(1) {
+    width: 2.7em;
+    -webkit-animation: type 1s steps(40, end),blink .1s step-end infinite ;
+    animation: type 1s steps(40, end),blink .1s step-end infinite alternate;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.pre-title h1:nth-child(2) {
+    width: 3.5em;
+    opacity: 0;
+    -webkit-animation: type2 1s steps(40, end),blink .1s step-end infinite alternate;
+    animation: type2 1s steps(40, end),blink .1s step-end infinite alternate;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+
+
+@keyframes type {
+    0% {
+        width: 0;
+    }
+    99.9% {
+        border-right: .15em solid orange;
+    }
+    100% {
+        border: none;
+    }
+}
+
+@-webkit-keyframes type {
+    0% {
+        width: 0;
+    }
+    99.9% {
+        border-right: .15em solid orange;
+    }
+    100% {
+        border: none;
+    }
+}
+
+@keyframes type2 {
+    0% {
+        width: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    99.9% {
+        border-right: .15em solid orange;
+    }
+    100% {
+        opacity: 1;
+        border: none;
+    }
+}
+
+@-webkit-keyframes type2 {
+    0% {
+        width: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    99.9% {
+        border-right: .15em solid orange;
+    }
+    100% {
+        opacity: 1;
+        border: none;
+    }
+}
+
+@keyframes type3 {
+    0% {
+        width: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes type3 {
+    0% {
+        width: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+@-webkit-keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+

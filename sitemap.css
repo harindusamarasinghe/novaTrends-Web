@@ -1,0 +1,72 @@
+@font-face {
+    font-family: myFont;
+    src: url(./Poppins/Poppins-Black.ttf);
+}
+
+h1{
+    font-family: myFont;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.header{
+    padding-top: 10%;
+}
+.header:before
+{
+	content: '';
+	position: absolute;
+	width: 200px;
+	height: 3px;
+	background-color: rgb(143, 0, 0);
+	top:  200px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+#Layer_1{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    
+}
+body{
+    background-image:url(./vecteezy_colorful-background-vector-illustration-exotic-plants_14041524.jpg);
+    background-size: cover;
+}
+h1{
+    text-align: center;
+}
+.rec-gallery ,.rec-about,.rec-quiz,.rec-form{
+    fill:#70cab2;
+    stroke:#5c5c5c;
+    stroke-width: 4px;
+}
+.rec-shop,.rec-product{
+    fill:#cfd78a;
+    stroke:#5c5c5c;
+    stroke-width:4px;
+}
+.home{
+    fill:#82b6dd;
+    stroke:#5c5c5c;
+    stroke-width: 4px;
+}
+.home:hover{
+    fill: #0075b8c2;
+}
+path{
+    stroke: #5c5c5c;
+    stroke-width: 4px;
+}
+.line:hover{
+    cursor: pointer;
+    stroke: #b6b6b0;
+}
+.rec-louis,.rec-rolex,.rec-nike,.rec-polo{
+    fill: #98C7E5;
+    stroke: #5c5c5c;
+    stroke-width: 2px;
+}
+.rec-louis:hover,.rec-rolex:hover,.rec-nike:hover,.rec-polo:hover{
+    fill: aqua;
+}
