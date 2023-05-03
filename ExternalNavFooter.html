@@ -1,0 +1,73 @@
+<!-- global styles -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/global-styles.css" type="text/css">
+
+<nav>
+    <img class="mainlogo" src="images/LOGO.jpg" alt="Ralph Lauren" style="width:100px;height:100px;">
+
+    <ul>
+        <li><a href="main.html" class="active">HOME</a></li>
+        <li><a href="#">GALLERY</a></li>                         
+        <li><a href="#">QUIZ</a></li>
+        <li><a href="#">ABOUT US</a></li>  
+    </ul>
+    <div class="dropdown">
+        <button class="dropbtn">BRANDS
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="Ralph Lauren.html">Ralph Lauren</a>
+          <a href="LV.html">Louis Vuitton</a>
+          <a href="rolex.html">Rolex</a>
+          <a href="nike.html">Nike</a>
+        </div>
+    </div>
+
+</nav>
+
+<footer class="footer" >
+    <div class="footer-main">
+        <div class="footer-row footer-left">
+            <div class="footer-text">
+                <h1>&copy;Nova Trends</h1>
+                <br>
+                <p>7637 Laurel Dr. King Of Prussia,</br> PA 19406</p>
+                <br>
+                <p>Nova Trends: Bridging the Gap Between Suppliers and Fashion Enthusiasts</p>
+            </div>
+        </div>
+        <div class="footer-row footer-middle">
+            <h2>About Us</h2>
+            <div class="footer-right-line"></div>
+            <p>Welcome to our store, where we curate the latest trends and styles for fashion enthusiasts. Our passion for fashion drives us to bring you the best selection of clothing, accessories, and more. Stay on top of the latest fashion trends with us.</p>
+        </div>
+        <div class="footer-row footer-middle-right">
+            <div><a href="Sitemap.html"><button class="button">Site Map</button></a></div>
+            <div><a href="Feedback Form.html"> <button class="button">Have Feedback ?</button></a></div>
+        </div>
+        <div class="footer-row footer-right">
+            <h2>Stay Connected</h2>
+            <div class="footer-right-line"></div>
+            <div class="links">
+                <div class="icons"><a href="#" class="fa fa-facebook"></a></div>
+                <div class="icons"><a href="#" class="fa fa-twitter"></a></div>
+                <div class="icons"><a href="#" class="fa fa-google"></a></div>
+                <div class="icons"><a href="#" class="fa fa-linkedin"></a></div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    window.addEventListener('scroll', function() {
+    const nav = document.querySelector('nav');
+    const navHeight = nav.offsetHeight;
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    if (scrollTop > navHeight) {
+        nav.classList.add('scrolled', 'nav-background');
+    } else {
+        nav.classList.remove('scrolled', 'nav-background');
+    }
+});
+
+</script>

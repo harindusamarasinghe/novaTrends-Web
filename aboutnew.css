@@ -1,0 +1,204 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+/*header*/
+.header img {
+    height: 60px;
+    top: 90vh;
+    left: 50vw;
+    position: relative;
+}
+
+.header {
+    background:url("images/fashion1.jpg");
+    background-size: cover;
+    height: 100vh;
+    position: sticky;
+
+}
+
+.lg-about {
+    z-index: 3;
+}
+
+.header text {
+    font-family: montserrat_semiboldregular, sans-serif;
+    color: #fff;
+    z-index: 3;
+    font-size: 80px;
+    top: 60%;
+    left: 0%;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    background: #d36868;
+    padding: 10px;
+}
+
+/*middle text*/
+#middle-text {
+    background: #22253c;
+    height: 450px;
+    padding: 60px;
+}
+
+#middle-text text {
+    color: #fff;
+    z-index: 3;
+    text-align: center;
+    position: relative;
+    
+}
+
+
+text #line-one {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:70px;
+    color: rgb(225,225,225,0.6);
+    text-align: center;
+    
+
+
+}
+
+text #line-two {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    width: 57%;
+    font-weight: 700;
+    margin: auto;
+    text-align: center;
+    color: rgb(225,225,225,0.6);
+    
+
+}
+
+.before-images {
+    height: 150px;
+    padding: 40px 10px 10px 10px;
+    text-align: center;
+}
+
+.before-images text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+/*images*/
+
+.container .box {
+    width: 500px;
+    margin: -30px auto 0 auto; 
+    display: table;
+    padding: 20px;
+
+}
+
+.container .box .box-row {
+    display: table-row;
+    
+}
+
+.container .box .box-row .box-cell {
+    display: table-cell;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    
+}
+
+/*Hover Details*/
+.box-cell {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    width: 300px;
+    
+    
+
+}
+
+.container-1 .box {
+    width: 1350px;
+    margin: 0 auto;
+    display: table;
+    height: 60px;
+    padding: 10px;
+    color: white;
+}
+
+.container-1 .box .box-row {
+    display: table-row;
+}
+
+.container-1 .box .box-row .box-cell {
+    display: table-cell;
+    height: 80px;
+    width: 300px;
+    padding: 10px;
+    
+   
+    text-align: center;
+    transition: 0.3s;
+   
+    
+}
+
+.image-hover1 {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius: 7px;
+    width: 300px;
+   
+}
+
+.hover-wrapper-1:hover .image-hover1 {
+    opacity: 0.7;
+}
+
+.image-hover2 {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius: 4px;
+    width:320px;
+    height: 300px;
+}
+
+.hover-wrapper-2:hover .image-hover2 {
+    opacity: 0.8;
+}
+
+.image-hover3 {
+    border-radius: 4px;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    width:320px;
+    height:300px;
+}
+
+.hover-wrapper-3:hover .image-hover3 {
+    opacity: 0.8;
+
+}
+
+.image-hover4 {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius: 4px;
+    width:300px;
+}
+
+.hover-wrapper-4:hover .image-hover4 {
+    opacity: 0.8;
+}
+.main{
+    position: sticky;
+}

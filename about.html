@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><title>about</title>
+        <!-- global styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+    <!--    local styles-->
+    <link rel="stylesheet" href="aboutnew.css" type="text/css">
+    <link rel="stylesheet" href="ExternalStyleSheet.css" type="text/css">
+    <!--    local js-->
+     <script src="about.js"></script>
+    
+     <script>
+
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+    
+    </head>
+
+<body>
+    
+    <div class="main">
+        <nav>
+            <img class="mainlogo" src="images/LOGO.jpg" alt="Ralph Lauren" style="width:100px;height:100px;">
+
+            <ul>
+                <li><a href="main.html" class="active">HOME</a></li>
+                <li><a href="new.html">GALLERY</a></li>                         
+                <li><a href="Take Quiz.html">QUIZ</a></li>
+                <li><a href="about.html">ABOUT US</a></li>  
+            </ul>
+            <div class="dropdown">
+                <button class="dropbtn">BRANDS
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="Ralph Lauren.html">Ralph Lauren</a>
+                  <a href="louis.html">Louis Vuitton</a>
+                  <a href="rolex.html">Rolex</a>
+                  <a href="Nike.html">Nike</a>
+                </div>
+            </div>
+
+        </nav>
+        
+
+        <div class="main">
+        <div class="header">
+            <a href="#meet-the-team"><img src="images/down-arrow.png" alt=down""></a>
+            <text id="meet-the-team">Meet The Team</text>
+        </div>
+        <div id="middle-text">
+            <text>
+                <h1 id="line-one">Mission</h1>
+                <p id="line-two">To provide our customers with a unique and personalized shopping experience, offering the latest fashion trends at an affordable price. We strive to create an environment that fosters creativity and self-expression, where our customers feel confident and empowered to explore their personal style</p>
+            </text>
+        </div>
+
+    </div>
+        <div class="before-images">
+        <text>Our Team</text>
+        </div>
+<!--    group-images-->
+
+    <div class="container">
+    <div class="box">
+        <div class="box-row">
+            <div class="box-cell box1 hover-wrapper-1"
+                 onmouseover="changeColor01('#22253c');showText01('Ravindu Sankalpa <br> Student 01')"
+                 onmouseout="changeColor01('white');hideText01()">
+                <img src="images/ravindu.jpeg" alt="Ravindu" class="image-hover1">
+            </div>
+            <div class="box-cell box2 hover-wrapper-2"
+                 onmouseover="changeColor02('#22253c');showText02('Sandesi Ariyaratne <br> Student 02')"
+                 onmouseout="changeColor02('white');hideText02()">
+                <img src="images/sandesi.jpg" alt="Sandesi" class="image-hover2">
+            </div>
+            <div class="box-cell box3 hover-wrapper-3"
+                 onmouseover="changeColor03('#22253c');showText03('Asini Perera <br> Student 03')"
+                 onmouseout="changeColor03('white');hideText03()">
+                <img src="images/asini.jpeg" alt="Asini" class="image-hover3">
+            </div>
+            <div class="box-cell box4 hover-wrapper-4"
+                 onmouseover="changeColor04('#22253c');showText04('Harindu Samarasinghe <br> Student 04')"
+                 onmouseout="changeColor04('white');hideText04()">
+                <img src="images/harindu.jpeg" alt="Harindu" class="image-hover4">
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+    <div class="container-1">
+        <div class="box">
+            <div class="box-row">
+                <div class="box-cell box1" id="hover-show1">
+
+                </div>
+                <div class="box-cell box2" id="hover-show2">
+
+                </div>
+                <div class="box-cell box3" id="hover-show3">
+
+                </div>
+                <div class="box-cell box4" id="hover-show4">
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    
+<footer class="footer" >
+    <div class="footer-main">
+        <div class="footer-row footer-left">
+            <div class="footer-text">
+                <h1>&copy;Nova Trends</h1>
+                <br>
+                <p>7637 Laurel Dr. King Of Prussia,</br> PA 19406</p>
+                <br>
+                <p>Nova Trends: Bridging the Gap Between Suppliers and Fashion Enthusiasts</p>
+            </div>
+        </div>
+        <div class="footer-row footer-middle">
+            <h2>About Us</h2>
+            <div class="footer-right-line"></div>
+            <p>Welcome to our store, where we curate the latest trends and styles for fashion enthusiasts. Our passion for fashion drives us to bring you the best selection of clothing, accessories, and more. Stay on top of the latest fashion trends with us.</p>
+        </div>
+        <div class="footer-row footer-middle-right">
+            <div><a href="sitemap.html"><button class="button">Site Map</button></a></div>
+            <div><a href="Feedback Form.html"> <button class="button">Have Feedback ?</button></a></div>
+        </div>
+        <div class="footer-row footer-right">
+            <h2>Stay Connected</h2>
+            <div class="footer-right-line"></div>
+            <div class="links">
+                <div class="icons"><a href="#" class="fa fa-facebook"></a></div>
+                <div class="icons"><a href="#" class="fa fa-twitter"></a></div>
+                <div class="icons"><a href="#" class="fa fa-google"></a></div>
+                <div class="icons"><a href="#" class="fa fa-linkedin"></a></div>
+            </div>
+        </div>
+    </div>
+
+  </footer>
+  
+  <div id="right-bottom"><span style="font-size:20px;cursor:pointer;position:fixed;bottom:20px;right:20px;color:#fbfae2;" onclick="openNav()">&#9776; Page Editor</span>
+  </div>
+  </div>
+</div>
+
+
+  <script>
+    window.addEventListener('scroll', function() {
+    const nav = document.querySelector('nav');
+    const navHeight = nav.offsetHeight;
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    if (scrollTop > navHeight) {
+        nav.classList.add('scrolled', 'nav-background');
+    } else {
+        nav.classList.remove('scrolled', 'nav-background');
+    }
+  });
+  </script>
+</body>
+
+
+</html>
